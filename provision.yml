@@ -1,0 +1,16 @@
+---
+- hosts: testing
+  user: root
+  vars:
+    username: admin
+    password: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+    public_key: ~/.ssh/id_rsa.pub
+  roles:
+  - common
+  # - ufw
+  # - user
+  # - nginx
+  # - php
+  # - mariadb
+  # - wp-cli
+  # - ssh
