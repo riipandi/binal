@@ -1,0 +1,2 @@
+# binal
+An Ansible playground.
